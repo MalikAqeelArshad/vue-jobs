@@ -6,7 +6,7 @@ import DropdownMenu from '@/components/DropdownMenu.vue';
 const isActiveLink = (routePath) => {
   const route = useRoute();
   const isActive = route.path === routePath;
-  return `${isActive ? 'bg-green-900' : ''} 'hover:bg-gray-900 hover:text-white text-white px-3 py-2 rounded-md`;
+  return `${isActive ? 'bg-green-900' : ''} hover:bg-green-900 hover:text-white text-white px-3 py-2 rounded-md`;
 };
 </script>
 

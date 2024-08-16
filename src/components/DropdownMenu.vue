@@ -24,10 +24,9 @@ const preventDefault = (e) => e.preventDefault();
 					<img class="inline-block h-5 mb-1 mr-1" :src="react" alt="React" /> React
 				</a>
 				<a
-					href='' @click="preventDefault" target="_blank"
+					href='https://nuxtjs-mongodb.vercel.app' target="_blank"
 					class='block px-4 py-2 text-gray-700 hover:bg-gray-100'>
 					<img class="inline-block h-5 mb-1 mr-1" :src="nuxt" alt="Nuxt" /> Nuxt
-					<small class="text-gray-300">coming soon</small>
 				</a>
 				<a
 					href='' @click="preventDefault" target="_blank"
